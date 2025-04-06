@@ -87,7 +87,6 @@ else:
 #pantalla; en caso contrario, dejar el string tal cual lo ingresó el usuario e imprimirlo por
 #pantalla.
 """
-def palabra_frase (): str
 palabra_frase = input ( "Por favor, introduzca una palabra o frase: ")
 vocales = "aeiouAEIOU"
 if palabra_frase[-1].lower() in vocales:
