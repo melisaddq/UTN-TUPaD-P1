@@ -162,3 +162,8 @@ b = (int(input("Por favor, ingrese el segundo número: ")))
 c = (int(input("Por favor, ingrese el tercer número: ")))
 print (calcular_promedio(a,b,c))
 """
+
+def saludo(nombre):
+    return f"Hola, {nombre}!"
+
+print(saludo("Ana"))
