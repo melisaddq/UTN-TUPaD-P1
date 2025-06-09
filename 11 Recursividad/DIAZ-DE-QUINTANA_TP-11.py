@@ -138,3 +138,10 @@ n=int(input("Ingrese un número entero positivo: "))
 d=int(input("Ingrese el dígito que desea buscar en ese número: "))
 print (f"El dígito {d} aparece {contar_digito(n, d)} vez/veces en el número dado")
 """
+
+def mystery(n):
+    if n<=1:
+        return n
+    return mystery(n-1)+mystery(n-2)
+
+print (mystery(4))
